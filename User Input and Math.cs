@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
        string name = Console.ReadLine();
        Console.WriteLine("Hello " + name);
        Console.WriteLine("How many chocolates you want? Write below!");
-       double chocolate = Convert.ToInt32(Console.ReadLine());
+       int chocolate = Convert.ToInt32(Console.ReadLine());
        Console.WriteLine("You followed all things correctly and you will get 5 more chocolates!");
        Console.WriteLine("Now you have: " + (chocolate + 5) + " Chocolates");
        }
